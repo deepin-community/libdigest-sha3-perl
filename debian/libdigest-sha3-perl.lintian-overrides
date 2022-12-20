@@ -1,0 +1,4 @@
+# libdigest-sha3-perl installs /usr/bin/sha3sum but the package is
+# primarly a library
+libdigest-sha3-perl: library-package-name-for-application usr/bin/sha3sum
+libdigest-sha3-perl: application-in-library-section perl usr/bin/sha3sum
